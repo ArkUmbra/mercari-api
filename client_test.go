@@ -2,10 +2,11 @@ package api
 
 
 import (
+	"fmt"
 	"testing"
-	// "github.com/ArkUmbra/mercari-api/pkg/api/client"
 )
 
 func TestGetByKeyword(t *testing.T) {
+	fmt.Println("TestGetByKeyword")
 	GetByKeyword("shirt")
 }
